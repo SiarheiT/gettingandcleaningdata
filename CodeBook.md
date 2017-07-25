@@ -61,6 +61,8 @@ run_analysis.R
 5) Returns the second dataset.
 
 save_dataset2.R
-1) function save_dataset2 asks a csv filename as function parameter
+1) function save_dataset2 asks a txt filename as function parameter
 2) calls run_analysis script to get data set 2
+3) saves the data set 2 as a txt file using filename from item 1 and write.table method (row.names = FALSE).
+
 3) saves the data set 2 using filename from item 1.
